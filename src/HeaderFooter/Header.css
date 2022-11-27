@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Roboto Flex';
+    font-weight: 900;
+    src: local('Lato'), url(../Fonts/RobotoFlex-Regular.ttf) format('truetype');
+}
+
+.header {
+    height: 54px;
+    border-bottom: 1px solid #C6C6C6;
+    backdrop-filter: blur(5px);
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.header_left {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.header_right {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.greeting {
+    font-family: 'Roboto Flex';    
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    color: #020655;
+
+    padding: 0px;
+    margin-top: 4px;
+    margin-left: 18.5px;
+}
+
+.venuename {
+    font-family: 'Roboto Flex';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+
+    color: #7D7D7D;
+    margin-bottom: 5px;
+    margin-left: 20.5px;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 42.82px;
+    width: 42.82px;
+    margin-bottom: 7.18px;
+    margin-top: 7.18px;
+    margin-right: 25.18px;
+}

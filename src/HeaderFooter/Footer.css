@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Roboto Flex';
+    font-weight: 900;
+    src: local('Lato'), url(../Fonts/RobotoFlex-Regular.ttf) format('truetype');
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 79px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px 2px rgba(9, 14, 130, 0.3);
+    border-radius: 20px 20px 0px 0px;
+}
+
+.footer_item {
+    font-family: 'Roboto Flex';
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selected {
+    color: #090E82;
+}
+
+.unselected {
+    color: #7D7D7D;
+}
